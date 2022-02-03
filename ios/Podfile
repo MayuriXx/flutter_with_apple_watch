@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Runner' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Runner
+
+end
+
+target 'watch' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for watch
+
+  target 'watchTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'watchUITests' do
+    # Pods for testing
+  end
+
+end
+
+target 'watch WatchKit Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for watch WatchKit Extension
+
+end
